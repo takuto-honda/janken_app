@@ -9,16 +9,19 @@
 </head>
 <body>
 <div class="preparation">じゃんけん！...</div>
-<select name="sources" id="sources" class="custom-select sources select-box" placeholder="Source Type">
-  <option value="rock">グー</option>
-  <option value="scissors">チョキ</option>
-  <option value="paper">パー</option>
-</select>
+<div class="box">
+  <select>
+    <option value="rock">グー</option>
+    <option value="scissors">チョキ</option>
+    <option value="paper">パー</option>
+  </select>
+</div>
 
 <div class="result">
-  <div class="win">おめでとう！君の勝利だ！！</div>
-  <div class="draw">あいこ！次はどうする？</div>
-  <div class="lose">残念...また頑張ろう！！</div>
+  <div class="win">おめでとう！<br>君の勝利だ！！</div>
+  <div class="draw">あいこ！<br>次はどうする？</div>
+  <div class="lose">残念...<br>また頑張ろう！！</div>
 </div>
+
 </body>
 </html>
