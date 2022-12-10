@@ -13,8 +13,15 @@ body {
   font-size: 50px;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box select {
-  font-size: 50px;
+  font-size: 70px;
+  margin-right: 20px;
 }
 
 .result {
@@ -31,4 +38,9 @@ body {
 
 .lose {
   color: blue;
+}
+
+button.action-button {
+  font-size: 70px;
+  background-color: #eeebe7;
 }
